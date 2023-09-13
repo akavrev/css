@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lesson</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="myphoto.jpg" alt="My pic" class="avatar" />
+        <div class="info-text">
+          <h1>Alex Kavrev</h1>
+          <p>Выпускник ОГПУ, бывший преподаватель.</p>
+          <p>Люблю футбол, рыбалку и много чего еще</p>
+          <h4>Мои соцсети</h4>
+          <a href="https://vk.com/akavrev" target="_blank">Мой ВК</a>
+          |
+          <a href="https://vk.com" target="_blank">Ссылка на сайт ВК</a>
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Футбол</li>
+          <li>Рыбалка</li>
+          <li>Музыка</li>
+        </ol>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tr>
+            <th>Компания</th>
+            <th>Должность</th>
+            <th>Год работы</th>
+          </tr>
+          <tr>
+            <td>Лагерь</td>
+            <td>Медбрат</td>
+            <td>2015</td>
+          </tr>
+          <tr>
+            <td>ОрИПС</td>
+            <td>Преподаватель</td>
+            <td>2016-2022</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="card bg-red">
+        <h2>Youtube</h2>
+        <ul class="link-list">
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=osCnPU6WSjQ"
+              target="_blank"
+              >Знакомство с HTML</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=W4MIiV4nZDY&t=5391s"
+              target="_blank"
+              >HTML Полный курс</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h2>Связаться со мной</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя</label>
+              <input type="text" id="name" placeholder="Введите имя" />
+            </div>
+            <div class="form-group">
+              <label for="email">Ваш email</label>
+              <input type="text" id="email" placeholder="Введите email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="text">Ваше сообщение</label>
+            <textarea id="text" cols="30" rows="5"></textarea>
+          </div>
+          <input class="btn" type="submit" value="Отправить email" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
